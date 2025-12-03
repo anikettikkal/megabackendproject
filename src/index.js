@@ -18,6 +18,16 @@ coonectDB()
 })
 
 
+// routes import
+import userRoutes from "./routes/user.routes.js";
+
+// routes declaration
+
+app.use("/api/v1/users", userRoutes);
+
+// http://Localhost:8000/api/v1/users/register
+
+
 
 
 /*
